@@ -10,23 +10,37 @@ public class Demo {
     }
 
     //С условни конструкции и цикли
-    public static String encryptCeaser (String text, int swift){
-        if (swift>26){
+    public static String encryptCeaser (String text, int shift) {
+        if (shift > 26) {
 
+        } else if (shift < 0) {
+            shift = (shift % 26) + 26;
         }
-        else if (swift <0){
-            swift =(swift%26)+26;
-            String cipher = "";
-            int lenght = text.length();
-            for (int i = 0; i < lenght; i++) {
-                char ch = text.charAt(i);
-                //TODO продължи от тук
+        String cipher = "";
+        int length = text.length();
+        for (int i = 0; i < length; i++) {
+            char ch = text.charAt(i);
+            if (Character.isLetter(ch)) {
+                if (Character.isLowerCase(ch)) {
+
+                }
+                else if (Character.isLowerCase(ch)) {
+                char c = (char)(ch+shift);
+
+
+                    //TODO тук
+
+                }
+            } else {
+                cipher += ch;
 
             }
+        }
             return cipher;
 
 
         }
 
     }
-}
+
+
