@@ -9,7 +9,7 @@ public class Demo {
     }
 
     //С условни конструкции и цикли
-    public static String encryptCeaser (String text, int shift) {
+    public static String encryptCeaser(String text, int shift) {
         if (shift > 26) {
 
         } else if (shift < 0) {
@@ -30,26 +30,18 @@ public class Demo {
 
                     } else cipher += c;
                 }
-            }
-                 else if (Character.isUpperCase(ch)) {
-                        char c = (char)(ch+shift);
-                        if (c>'Z'){
-                            cipher += (char) (ch - (26 - shift));
-
-                        }
-
-
-
+            } else if (Character.isUpperCase(ch)) {
+                char c = (char) (ch + shift);
+                if (c > 'Z') {
+                    cipher += (char) (ch - (26 - shift));
+                }
             } else {
                 cipher += ch;
 
             }
         }
-            return cipher;
-
-
-        }
-
+        return cipher;
     }
+}
 
 
