@@ -15,21 +15,9 @@ public class Demo2 {
         char[] alphabet = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
                 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
                 'U', 'V', 'W', 'X', 'Y', 'Z'};
-        for (char i : alphabet) {
-            System.out.println(i);
-        }
         alphabet[0] = 'A' - 3;
-        if (('A' - 3) < 'A') {
-            alphabet[0] = ('A' - 3) + 26;
-        }
-        if (('B' - 3) < 'A') {
-            alphabet[1] = ('B' - 3) + 26;
-        }
+        alphabet[1] = 'B' -3;
         alphabet[2] = 'C' - 3;
-        if (('C' - 3) < 'A') {
-            alphabet[2] = ('C' - 3) + 26;
-        }
-
         alphabet[3] = 'D' - 3;
         alphabet[4] = 'E' - 3;
         alphabet[5] = 'F' - 3;
@@ -53,6 +41,20 @@ public class Demo2 {
         alphabet[23] = 'X' - 3;
         alphabet[24] = 'Y' - 3;
         alphabet[25] = 'Z' - 3;
+
+        if (('A' - 3) < 'A') {
+            alphabet[0] = ('A' - 3) + 26;
+        }
+        if (('B' - 3) < 'A') {
+            alphabet[1] = ('B' - 3) + 26;
+        }
+        if (('C' - 3) < 'A') {
+            alphabet[2] = ('C' - 3) + 26;
+        }
+        for (char i : alphabet) {
+            System.out.println(i); }
+
+
 
 
         String cipher = "";
