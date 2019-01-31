@@ -6,12 +6,8 @@ public class Demo2 {
         System.out.println("Enter your encrypted message");
         String enMessage = input.nextLine();
         System.out.println();
-        System.out.println(CeaserDecryption(enMessage,3));
-
-    }
 
 
-    public static String CeaserDecryption(String text, int shift) {
         char[] alphabet = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
                 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
                 'U', 'V', 'W', 'X', 'Y', 'Z'};
@@ -58,7 +54,7 @@ public class Demo2 {
 
 
         String cipher = "";
-        return cipher;
+
 
     }
 
