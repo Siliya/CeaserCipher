@@ -1,9 +1,14 @@
+import java.util.Scanner;
+
 public class Demo {
     //TODO formula  encrypt n + 3 - t = q decrypt n - 3 q=t or the other way around
     //TODO първо си правя шифровката, за да го дешифровам, а и да изпробвам различни варианти
     public static void main(String[] args) {
-        String message = "text please work, why aren't you working?";
-        String encryption = encryptCeaser(message, 3);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter your encrypted message");
+        String deMessage = input.nextLine();
+        System.out.println();
+        String encryption = encryptCeaser(deMessage, 5);
         System.out.println(encryption);
 
     }
