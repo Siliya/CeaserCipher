@@ -1,7 +1,7 @@
 import java.util.Scanner;
 //TODO РАБОТИ, но не това е прокта. Версията с ключ
 
-public class Decryption {
+public class DecryptionKey {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Message can only be upper or lowercase alphabet"); //разлимни стойности

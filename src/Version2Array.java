@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//TODO clearly not the way
 public class Version2Array {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
