@@ -8,11 +8,17 @@ public class DecryptionMostFrequant
         char  mostFrequent = ' ';
         int temp =0;
         int bestNumber =0;
-
-
-
-
+        for (int i = 0; i < messageArray.length; i++) {
+            if (messageArray[i] != 'e' && messageArray[i] != 't' && messageArray[i] != 'h' && messageArray[i] != 'e' ) {
+                temp++;
+                if (temp > bestNumber) {
+                    bestNumber = temp;
+                    mostFrequent = messageArray[i];
+                    temp = 0;
+                }
+            }
         }
+
 
     }
     public static void ShiftAndPrint (char [] allLetters, char  letter){
