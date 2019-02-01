@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4593e138-0390-4c1d-9f75-d8dcb8c5c05e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DencryptingCeaserCipher/AnotherAttempt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DencryptingCeaserCipher/AnotherAttempt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DencryptingCeaserCipher/CeaserSampleDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DencryptingCeaserCipher/Decryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DencryptingCeaserCipher/Decryption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DencryptingCeaserCipher/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DencryptingCeaserCipher/Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DencryptingCeaserCipher/Encryption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AcsiiTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnotherAttempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecryptionMostFrequant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecryptionKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Version2Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Version2Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecryptionMostFrequant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecryptionMostFrequant.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,10 +29,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DecryptionMostFrequant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="306">
+              <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Java/Arrays/src/ForEach.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -118,7 +114,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549021624922" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549022464106" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java/StringLesson/src/Cipher.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -277,9 +273,6 @@
     <entry file="file://$PROJECT_DIR$/../Java/Arrays/src/AndMoreArrays.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java/Arrays/src/ForEach.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Java/Arrays/src/DemoArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -315,6 +308,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecryptionKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Version2Array.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -322,12 +322,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DecryptionKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../Java/Arrays/src/ForEach.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../Java/StringLesson/src/Cipher.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -338,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DecryptionMostFrequant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="306">
+          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
         </state>
       </provider>
     </entry>
