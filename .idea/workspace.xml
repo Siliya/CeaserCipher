@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4593e138-0390-4c1d-9f75-d8dcb8c5c05e" name="Default Changelist" comment="&quot;alphabet added&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DencryptingCeaserCipher/DecryptionMostFrequant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DencryptingCeaserCipher/DecryptionMostFrequant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DecryptionMostFrequant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecryptionMostFrequant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TryOut.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,20 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DecryptionMostFrequant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TryOut.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -50,11 +44,6 @@
               <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Java/Arrays/src/ForEach.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -142,7 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549029937884" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549030554676" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java/StringLesson/src/Cipher.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -161,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TryOut">
+  <component name="RunManager" selected="Application.DecryptionMostFrequant">
     <configuration name="CeaserSampleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CeaserSampleDemo" />
       <module name="DencryptingCeaserCipher" />
@@ -199,8 +188,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TryOut" />
         <item itemvalue="Application.DecryptionMostFrequant" />
+        <item itemvalue="Application.TryOut" />
         <item itemvalue="Application.CeaserSampleDemo" />
         <item itemvalue="Application.Decryption" />
         <item itemvalue="Application.Demo2" />
@@ -391,17 +380,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DecryptionMostFrequant.java">
+    <entry file="file://$PROJECT_DIR$/src/TryOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="153">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TryOut.java">
+    <entry file="file://$PROJECT_DIR$/src/DecryptionMostFrequant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
         </state>
       </provider>
     </entry>
