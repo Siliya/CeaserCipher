@@ -3,9 +3,12 @@ public class DecryptionMostFrequant
 {
     public static void main(String[] args) {
         String enMessage = "cneg bs gur wbhearl vf gur raq";
+        char [] mostOccuring = enMessage.trim().toCharArray();
+        char [] messageArray = enMessage.split(enMessage.toCharArray("")); //na kakvo go splitvam?
 
-        char [] mostOccuring = {'e', 't', 'h'};
-        char [] message = enMessage.trim().split();
+       // char [] mostOccuring = {'e', 't', 'h'};
+
+
 
         enMessage = enMessage.toLowerCase();
         for (int i = 0; i < mostOccuring.length; i++) {
