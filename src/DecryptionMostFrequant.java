@@ -18,7 +18,7 @@ public class DecryptionMostFrequant
 
         }
 
-    } 
+    }
     public static void MostFrequent (char [] mostFrequent, String enMessage){
         enMessage = enMessage.trim().toLowerCase();
         char [] mostFreqeunt = enMessage.toCharArray();
