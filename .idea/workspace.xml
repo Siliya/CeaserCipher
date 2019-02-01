@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4593e138-0390-4c1d-9f75-d8dcb8c5c05e" name="Default Changelist" comment="" />
+    <list default="true" id="4593e138-0390-4c1d-9f75-d8dcb8c5c05e" name="Default Changelist" comment="&quot;alphabet added&quot;" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +26,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DecryptionMostFrequant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="17">
+              <caret line="1" column="7" selection-end-line="34" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BackUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -35,7 +44,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TryOut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
+            <state relative-caret-position="119">
               <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
             </state>
           </provider>
@@ -94,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/Version2Array.java" />
         <option value="$PROJECT_DIR$/src/DecryptionMostFrequant.java" />
         <option value="$PROJECT_DIR$/src/TryOut.java" />
+        <option value="$PROJECT_DIR$/src/BackUp.java" />
       </list>
     </option>
   </component>
@@ -130,7 +140,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549029190164" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549029489230" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java/StringLesson/src/Cipher.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -372,16 +382,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DecryptionMostFrequant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="17">
+          <caret line="1" column="7" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TryOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
+        <state relative-caret-position="119">
           <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
