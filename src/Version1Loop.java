@@ -1,14 +1,16 @@
 import java.util.Scanner;
 
-public class Demo {
+public class Version1Loop {
     //TODO formula  encrypt n + 3 - t = q decrypt n - 3 q=t or the other way around
-    //TODO първо си правя шифровката, за да го дешифровам, а и да изпробвам различни варианти
+
+    //TODO НЕ Е ПРАВИЛНОТО РЕШЕНИЕ! а и не работи
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your encrypted message");
         String deMessage = input.nextLine();
         System.out.println();
-        String encryption = encryptCeaser(deMessage, 5);
+        String encryption = encryptCeaser(deMessage, 5); //shift
         System.out.println(encryption);
 
     }
@@ -26,16 +28,16 @@ public class Demo {
         for (int i = 0; i < length; i++) {
             char ch = text.charAt(i);
             if (Character.isLetter(ch)) {
-                if (Character.isLowerCase(ch)) {
+                if (Character.isLowerCase(ch)) {  //за малки букви
 
                 } else if (Character.isLowerCase(ch)) {
                     char c = (char) (ch + shift);
                     if (c > 'z') {
-                        cipher += (char) (ch - (26 - shift));
+                        cipher += (char) (ch - (26 - shift)); //когато извърти азбуката
 
                     } else cipher += c;
                 }
-            } else if (Character.isUpperCase(ch)) {
+            } else if (Character.isUpperCase(ch)) { //главни букви, имат различни ASCII стойности
                 char c = (char) (ch + shift);
                 if (c > 'Z') {
                     cipher += (char) (ch - (26 - shift));
@@ -45,7 +47,7 @@ public class Demo {
 
             }
         }
-        return cipher;
+        return cipher;  //връща
     }
 }
 

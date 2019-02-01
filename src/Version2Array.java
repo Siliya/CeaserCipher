@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Demo2 {
+public class Version2Array {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your encrypted message");

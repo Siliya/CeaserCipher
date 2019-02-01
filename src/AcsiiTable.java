@@ -1,3 +1,7 @@
+//TODO просто таблица
+
+
+
 //public class AcsiiTable {
 //    ASCII Table
 //    Dec  = Decimal Value
