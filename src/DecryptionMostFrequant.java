@@ -1,13 +1,19 @@
+import java.util.Arrays;
+
 public class DecryptionMostFrequant {
     //TODO ТОВА ТРЯБВА ДА Е ОКОНЧАТЕЛНАТА ВЕРСИЯ С e t h most frequent
 
     public static void main(String[] args) {
         String enMessage = "cneg bs gur wbhearl vf gur raq";
+
         enMessage = enMessage.toLowerCase(); //връща всички char към малки букви
+
         char[] messageArray = enMessage.trim().toCharArray(); //реже пространствата и разделя масива на  char-ове
         char mostFrequent = ' '; //три променливи, които използвам, едната временна, за да изчисля и завъртя стойностите им по-долу
         int temp = 0;
         int bestNumber = 0;
+
+        Arrays.sort(messageArray);  //сортирам си масива
         for (int i = 0; i < messageArray.length; i++) { //обхождам масива
             if (messageArray[i] != 'e' && messageArray[i] != 't' && messageArray[i] != 'h' && messageArray[i] != 'e') {
                 temp++; //проверявам за най-често срещаните букви и му задавам какво да прави, ако не са e t h
@@ -17,7 +23,9 @@ public class DecryptionMostFrequant {
                     temp = 0;
                 }
             }
+            System.out.println(messageArray[i]);
         }
+
         ShiftAndPrint(messageArray, mostFrequent);
 
     }
@@ -31,3 +39,4 @@ public class DecryptionMostFrequant {
     }
 
 }
+
