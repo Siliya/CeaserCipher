@@ -1,5 +1,5 @@
 # CeaserCipher
-Encryption of Ceaser Cipher
+Decryption of Ceaser Cipher
 Имена: Силия Иванова
 Дата: 2018-02-02
 Предмет: Увод в програмирането с Java
